@@ -64,18 +64,18 @@ for i in range(7):
     # outputnya 1, 3, 5, 6 karna 7 tidak ada dalam range dan
 
 
-# # mengecek bilangan prima
-# num = int(input("masukkan angka: "))
+# mengecek bilangan prima
+num = int(input("masukkan angka: "))
 
-# if num > 1:
-#     for i in range(2, int(num**0.5) + 1):
-#         if num % i == 0:
-#             print(f"{num} bukan bilangan prime")
-#             break
-#     else:
-#         print(f"{num} adalah bilangan prime")
-# else:
-#     print(f"{num} bukan bilangan prime")
+if num > 1:
+    for i in range(2, int(num**0.5) + 1):
+        if num % i == 0:
+            print(f"{num} bukan bilangan prime")
+            break
+    else:
+        print(f"{num} adalah bilangan prime")
+else:
+    print(f"{num} bukan bilangan prime")
 
 
 # program for find the largest number in a list using for looop

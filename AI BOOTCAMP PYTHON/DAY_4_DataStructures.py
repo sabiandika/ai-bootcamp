@@ -33,7 +33,7 @@ print(predator)  # menghapus [0] Lion
 
 predator.pop()  # menghapus index terakhir yang ada di list predator
 print(predator)  # menghapus Puma
-# output ['Bear', 'Crocodile']
+li# output ['Bear', 'Crocodile']
 
 #TUPLE
 colors = ("red", "green", "blue") 

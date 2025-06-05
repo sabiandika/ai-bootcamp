@@ -49,4 +49,3 @@ import sys
 print(sys.platform) #untuk cek sistem operasi yang digunakan.
 print(sys.argv[0]) #sys.argv adalah list (daftar) yang berisi argumen command-line. Elemen-elemen berikutnya (sys.argv[1], sys.argv[2], dst.) adalah argumen yang Anda tambahkan saat menjalankan skrip
 print(sys.version) #untuk cek versi python yang digunakan. 
-

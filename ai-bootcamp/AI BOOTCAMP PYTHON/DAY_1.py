@@ -13,7 +13,7 @@
 
 # CONTROL FLOW, 1.Check Condition
 print("Check Condition")
-num = 10
+num = -10
 if num > 0:
     print("Positif Number:", num)
 elif num == 0:
@@ -70,12 +70,12 @@ num = int(input("masukkan angka: "))
 if num > 1:
     for i in range(2, int(num**0.5) + 1):
         if num % i == 0:
-            print(f"{num} bukan bilangan prime")
+            print(f"{num} bukan bilangan prima")
             break
     else:
-        print(f"{num} adalah bilangan prime")
+        print(f"{num} adalah bilangan prima")
 else:
-    print(f"{num} bukan bilangan prime")
+    print(f"{num} bukan bilangan prima")
 
 
 # program for find the largest number in a list using for looop
